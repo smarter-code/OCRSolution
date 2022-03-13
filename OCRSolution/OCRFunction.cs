@@ -17,8 +17,8 @@ namespace OCRSolution
 {
     public static class OCRFunction
     {
-        static string endpoint = "https://ocr-cognitive-service.cognitiveservices.azure.com";
-        static string key = "4fa0ca88e5b14b359eb0be57b4915c51";
+        static string endpoint = "YOUR-AZURE-COGNITIVE-SERVICE-ENDPOINT-URL";
+        static string key = "YOUR-AZURE-COGNITIVE-SERVICE-KEY";
         static ComputerVisionClient client;
 
         private static ComputerVisionClient Authenticate(string endpoint, string key)
