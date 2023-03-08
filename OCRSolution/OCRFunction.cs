@@ -31,6 +31,8 @@ namespace OCRSolution
 
         public static async Task<List<string>> ReadImage(ComputerVisionClient client, IFormFile file)
         {
+            // few changes to the code
+            var x=1;
             List<string> extractedLines;
             using (var stream = file.OpenReadStream())
             {
